@@ -40,7 +40,7 @@ function Home() {
 
 	const [myMovie, setMyMovie] = useState([]);
 	useEffect(() => {
-		fetch("https://movies-backend-pearl.vercel.app")
+		fetch("https://movies-backend-rh5hkpwmn-warais-projects.vercel.app")
 			.then((response) => response.json())
 			.then((e) => {
 				console.log(e);
